@@ -1,0 +1,149 @@
+@font-face {
+  font-family: GildaDisplay;
+  src: url(../fonts/Gilda_Display/GildaDisplay-Regular.ttf);
+}
+
+@font-face {
+  font-family: MavenPro;
+  src: url(../fonts/Maven_Pro/MavenPro-VariableFont_wght.ttf);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: MavenPro;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* ******** Header *****************************/
+
+header {
+  background-color: #333;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+}
+
+/* ******** ContentBox *****************************/
+
+header section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.headerFlexBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  background-image: linear-gradient(to top right, #8507e1, #194894, #3dc8d5);
+}
+
+.headerFlexBox p {
+  font-size: 1.5rem;
+  width: 25vw;
+  text-align: center;
+}
+
+h1 {
+  padding: 1rem;
+  font-size: 2rem;
+  display: inline-block;
+}
+
+h1:hover {
+  color: #3dc8d5;
+  cursor: pointer;
+}
+
+h2 {
+  font-family: GildaDisplay;
+  font-size: 5rem;
+}
+
+/* ******** Navigation *****************************/
+
+header ul {
+  text-align: right;
+  padding: 5rem;
+  list-style: none;
+  font-size: 1.7rem;
+}
+
+header ul li {
+  padding: 0.3rem;
+}
+
+header a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: rgb(192, 187, 187);
+}
+
+/* ******** Main Section 1 *****************************/
+
+main {
+  padding: 10rem 10rem 0rem 10rem;
+}
+
+.section1 {
+  height: 100vh;
+  background-image: url(../img/5c898cd67456ffcba141a5ff_PROJECTS.svg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: contain;
+}
+
+.section1 article {
+  margin-right: 50rem;
+}
+
+.section1 p {
+  font-size: 2rem;
+}
+
+.section1 p:nth-of-type(1) {
+  margin-top: 3rem;
+}
+
+.section1 p:nth-of-type(2) {
+  margin-top: 3rem;
+}
+
+h3 {
+  font-family: GildaDisplay;
+  font-size: 7rem;
+  padding-top: 15rem;
+}
+
+/* ******** Main Section 2 *****************************/
+
+h4 {
+  font-size: 5rem;
+  font-family: GildaDisplay;
+  margin-bottom: 1rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+
+.section2-article {
+  margin: 20rem 0rem;
+}
+
+img {
+  width: 85vw;
+  margin-bottom: 4rem;
+  border-radius: 2rem;
+}
